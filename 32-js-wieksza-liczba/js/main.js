@@ -1,10 +1,8 @@
-let num1 = 2;
-let num2 = 5;
+let example1 = 2;
+let example2 = 5;
 
-function multiply(num1, num2) {
-  let result = num1 * num2;
-
-  return result;
+function highestValue(num1, num2) {
+  return Math.max(example1, example2);
 }
 
-console.log(multiply(num1, num2));
+console.log(Math.max(example1, example2));

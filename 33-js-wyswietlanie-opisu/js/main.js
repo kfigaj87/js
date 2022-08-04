@@ -1,14 +1,9 @@
-let nowafunkcja = document.getElementById("opis-wyswietlenie");
+let paragraph = document.getElementById("opis-wyswietlenie");
 
-let object = document.querySelector("button");
+let button = document.querySelector("button");
 
-let myHeading = document.querySelector("button");
-
-myHeading.onclick = function () {
-  alert("it is alive!!!!!");
+button.onclick = function () {
+  paragraph.innerText = "it is alive!!!!!";
 };
-console.log(nowafunkcja);
-console.log(myHeading);
-console.log(object);
-
-//
+console.log(paragraph);
+console.log(button);
