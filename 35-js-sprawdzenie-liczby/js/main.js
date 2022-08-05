@@ -1,11 +1,13 @@
-let n = 108;
-
-function displayLeter(n1) {
-  if (nLeter > 100) {
+let n = 130;
+let x = 100;
+let y = 200;
+function compare(elemens) {
+  if (n >= x && n <= y) {
     return "Liczba znajduje się w przedziale";
-  } else if (nleter < 100) {
+  } else {
     return "Liczba nie znajduje się w przedziale";
   }
 }
-let result = displayLeter(n);
+let result = compare(n);
+
 console.log(result);
