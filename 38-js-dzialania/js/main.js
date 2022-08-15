@@ -6,13 +6,13 @@ function action(num1, num2) {
   let roznica = num1 - num2;
   let iloczyn = num1 * num2;
 
-  if (suma > 0) {
+  if (suma >= 0) {
     console.log("Wynik dodawania wynosi " + suma);
   }
-  if (roznica > 0) {
+  if (roznica >= 0) {
     console.log("Wynik odejmowania wynosi " + roznica);
   }
-  if (iloczyn > 0) {
+  if (iloczyn >= 0) {
     console.log("Wynik mnożenia wynosi " + iloczyn);
   } else {
     console.log("Wynik jest nieprawidłowy");
