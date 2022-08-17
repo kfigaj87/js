@@ -14,3 +14,7 @@ function displayData() {
   let pPhone = document.getElementById("phone");
   pPhone.innerText = phoneForm.value;
 }
+// zdarzenie.praca z interfejsem DOM
+let button = document.querySelector("button");
+
+button.addEventListener("click", displayData);
